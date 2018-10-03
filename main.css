@@ -1,0 +1,42 @@
+
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+}
+  body {
+    background-color: pink;
+}
+h1 {
+  font-weight:lighter;
+  font-size: 40px;
+  letter-spacing: 2px;
+  margin-bottom: 0px;
+}
+
+.inputSection{
+  margin: 50px 0px 80px 0px;
+  width: 400px;
+}
+.inputs{
+  width:inherit;
+  display:flex;
+  flex-direction:column;
+}
+input{
+  margin-top: 10px
+}
+
+.addOption{
+  margin-top: 10px;
+}
+
+button {
+  background-image: -webkit-linear-gradient(top, #eb94d0, #2079b0);
+  background-image: -moz-linear-gradient(top, #eb94d0, #2079b0);
+  background-image: -ms-linear-gradient(top, #eb94d0, #2079b0);
+  background-image: -o-linear-gradient(top, #eb94d0, #2079b0);
+  background-image: linear-gradient(to bottom, #eb94d0, #2079b0);
+}
